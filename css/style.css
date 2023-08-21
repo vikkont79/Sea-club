@@ -39,14 +39,50 @@ p {
   font-size: 16px;
   line-height: 24px;
 }
+.winner {
+line-height: 19px;
+color: #8693A4
+}
+.news-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+} 
+.news {
+  font-size: 18px;
+  line-height: 26px; 
+}
+h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;  
+}
 
-.contacts-item {
+.member-item {
+  font-size: 18px;
+  line-height: 26px; 
+}
+.cite {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+}
+.author {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;  
+}
+.news-time {
+  font-size: 16px;
+  line-height: 19px;
+  color:#8693A4
+}
+.contacts-title {
+  font-weight: 700;
   font-size: 16px;
   line-height: 22px;
 }
-
-h3 {
-  font-weight: 700;
+.contacts-item {
   font-size: 16px;
   line-height: 22px;
 }
