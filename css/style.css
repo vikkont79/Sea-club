@@ -23,17 +23,19 @@ a {
   display: flex;
 }
 .main-header-logo {
+  margin: 0;
   width: 64px;
+  margin-right: 471px;
 }
 .main-header-nav-list {
+  width: 559px;
   padding: 0;
   margin: 0;
-  margin-left: auto;
   list-style: none;
-  width: 600px;
-}
+  }
 .signin {
   width: 36px;
+  margin-left: auto;
 }
 .site-navigation-item {
   text-transform: uppercase;
@@ -96,6 +98,10 @@ p {
   font-size: 16px;
   line-height: 24px;
 }
+.news-title-main {
+  margin-top: 0;
+  margin-bottom: 55px;
+}
 .post-img {
   margin-left: auto;
   margin-right: auto;  
@@ -110,13 +116,15 @@ color: #8693A4
   font-size: 22px;
   line-height: 26px;
 } 
-.news {
-  font-size: 18px;
-  line-height: 26px;
+.news {  
   width: 770px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 120px;
+}
+.news-content {
+  font-size: 18px;
+  line-height: 26px;
 }
 h4 {
   font-weight: 700;
