@@ -4,10 +4,6 @@ body {
   color: #163152;
  margin: 0;
 }
-/*a {
-  color: #163152;
-  text-decoration: none;
-}*/
 .main-header {
   width: 1170px;
   margin: 0 auto;
@@ -97,6 +93,34 @@ main .title {
 .blog-content {
   font-size: 16px;
   line-height: 24px;
+}
+.gallery {
+  width: 1170px;
+  margin: 0 auto; 
+  margin-bottom: 120px;
+}
+.gallery-title {
+  margin-top: 0;
+  margin-bottom: 55px;
+  }
+.gallery-container {
+  display: flex;
+}
+.gallery-active {
+  width: 970px;
+  margin-right: 30px;
+}
+.gallery-column {
+  width: 170px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gallery-item {
+  margin-bottom: 30px;
+}
+.gallery-item:last-child {
+  margin-bottom: 0; 
 }
 .news-title-main {
   margin-top: 0;
