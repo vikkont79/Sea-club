@@ -22,7 +22,7 @@ body {
   align-items: center;
 }
 .main-header-logo {
-   width: 64px;
+  width: 64px;
   height: 68px;
   margin-right: 471px;
   }
@@ -148,6 +148,12 @@ main .title {
 .gallery-item:last-child {
   margin-bottom: 0; 
 }
+.gallery-item a{
+   display: block;
+}
+.gallery-item img {
+  display: block;
+}
 .news {  
   width: 770px;
   margin: 0 auto;
@@ -205,18 +211,31 @@ h4 {
   font-weight: 700;
   font-size: 26px;
   line-height: 36px;
+  margin: 0;
   padding-left: 20px;
   border-left: 2px solid #00c6bd;
+}
+.post-footer {
+  display: flex;
 }
 .author {
   font-weight: 700;
   font-size: 16px;
-  line-height: 19px;  
+  line-height: 19px;
+  margin-left: 15px;  
+}
+.author a {
+  color: #163152;
+  text-decoration: none; 
 }
 .news-time {
   font-size: 16px;
   line-height: 19px;
-  color:#8693A4
+  color:#8693A4;
+  margin-top: 9px;
+}
+.news-link {
+  margin-left: auto;
 }
 .news-link:hover {
   opacity: 0.5;
@@ -336,4 +355,8 @@ h4 {
   line-height: 16px;
   font-weight: 400;
   text-transform: none;
+  margin-bottom: 12px;
+}
+.footer-item:last-child {
+  margin-bottom: 0;
 }
